@@ -4,14 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Laurenz Lange</title>
-<meta name="description" content="Laurenz Lange – mitten im Studium an der Frankfurt School, auf der Suche nach der nächsten großen Idee. Frankfurt am Main." />
+<meta name="description" content="Mitten im Studium. Auf der Suche nach der nächsten großen Idee. Offen für gute Ideen und Austausch." />
 <meta name="author" content="Laurenz Lange" />
 <link rel="canonical" href="https://laurenzlange.de/" />
 <meta name="theme-color" content="#ffffff" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231d1d1f'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Helvetica Neue,Arial,sans-serif' font-weight='700' font-size='28' fill='%23fff'%3ELL%3C/text%3E%3C/svg%3E" />
+<link rel="icon" href="favicon.ico" sizes="48x48" />
+<link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Laurenz Lange" />
-<meta property="og:description" content="Mitten im Studium an der Frankfurt School. Auf der Suche nach der nächsten großen Idee." />
+<meta property="og:description" content="Mitten im Studium. Auf der Suche nach der nächsten großen Idee. Offen für gute Ideen und Austausch." />
 <meta property="og:locale" content="de_DE" />
 <meta property="og:site_name" content="Laurenz Lange" />
 <meta property="og:url" content="https://laurenzlange.de/" />
@@ -25,17 +27,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Laurenz Lange",
-  "url": "https://laurenzlange.de",
-  "address": { "@type": "PostalAddress", "addressLocality": "Frankfurt am Main", "addressCountry": "DE" },
-  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Frankfurt School of Finance & Management" },
-  "sameAs": [
-    "https://www.linkedin.com/in/laurenz-lange-24385526a/",
-    "https://www.instagram.com/laurenz.inc/",
-    "https://strava.app.link/3n07yVg8T7b",
-    "https://open.spotify.com/user/letter4laurenz",
-    "https://de.pinterest.com/LaurenzLangee/"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://laurenzlange.de/#website",
+      "name": "Laurenz Lange",
+      "alternateName": "laurenzlange.de",
+      "url": "https://laurenzlange.de/",
+      "inLanguage": "de-DE"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://laurenzlange.de/#person",
+      "name": "Laurenz Lange",
+      "url": "https://laurenzlange.de/",
+      "image": "https://laurenzlange.de/og-image.png",
+      "address": { "@type": "PostalAddress", "addressLocality": "Frankfurt am Main", "addressCountry": "DE" },
+      "affiliation": { "@type": "CollegeOrUniversity", "name": "Frankfurt School of Finance & Management" },
+      "sameAs": [
+        "https://www.linkedin.com/in/laurenz-lange-24385526a/",
+        "https://www.instagram.com/laurenz.inc/",
+        "https://open.spotify.com/user/letter4laurenz",
+        "https://de.pinterest.com/LaurenzLangee/"
+      ]
+    }
   ]
 }
 </script>
